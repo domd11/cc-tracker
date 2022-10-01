@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Shows</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/movies/movies.html">Movies</a></li>
+        </ul>
+    </div>
+
+    <h1>Your Shows</h1>
+    <input id="title" placeholder="Show Title"/>
+    <input id="genre" placeholder="Show Genre"/>
+    <input id="rating" type="number" max="5" placeholder="Rating out of 5"/>
+    <button id="modal-btn">Add Movie</button>
+
+    <br />
+    <br />
+    <table id="display">
+        <tr>
+          <th>Show Name</th>
+          <th>Show Rating</th>
+          <th>Show Genre</th>
+          <th>Date Added</th>
+          <th>Delete</th>
+        </tr>
+        
+      </table>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
