@@ -14,8 +14,8 @@ movies = localMovies;
 
 shows = localShows; 
 
-const slicedMovies = movies.slice(0,5); 
-const slicedShows = shows.slice(0,5); 
+slicedMovies = movies.slice(0,5); 
+slicedShows = shows.slice(0,5); 
 
 if (slicedMovies.length < 1){
     const noMovies = `<h3 class="no-content">You do not have any movies. Go add some!</h3>`;
