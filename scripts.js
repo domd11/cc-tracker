@@ -29,6 +29,23 @@ if (slicedShows < 1){
     btnShows.innerHTML = "Add Shows"; 
 }
 
+if (slicedMovies.length >= 1 && slicedMovies.length < 5){
+    let movie = ''; 
+    slicedMovies.forEach((data) => {
+        movie += `<tr><td>${data.title}</td><td>${data.genre}</td><td>${data.rating}</td><td>${data.date}</td></tr>`
+    }); 
+    displayMovies.innerHTML = movie; 
+}
+
+if (slicedShows.length >= 1 && slicedShows.length < 5){
+    let show = ''; 
+
+    slicedShows.forEach((data) => {
+        show += `<tr><td>${data.title}</td><td>${data.genre}</td><td>${data.rating}</td><td>${data.date}</td></tr>`
+    }); 
+
+    displayShows.innerHTML = show; 
+}
 
 if (slicedMovies.length > 1){
     let movie = ''; 
