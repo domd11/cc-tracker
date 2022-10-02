@@ -9,6 +9,16 @@
     background-color: rgba(113, 113, 113, 0.858);
 }
 
+.link-button {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.link-text {
+  color: blue;
+  text-decoration: none;
+}
+
 input {
     width: 400px;
     border-radius: 5px;
