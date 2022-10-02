@@ -23,7 +23,7 @@ if (slicedMovies.length < 1){
     btnMovies.innerHTML = "Add Movies"; 
 }
 
-if (slicedShows < 1){
+if (slicedShows.length < 1){
     const noShows = `<h3 clas="no-content">You do have have any movies. Go add some!</h3>`;
     displayShows.innerHTML = noShows;  
     btnShows.innerHTML = "Add Shows"; 
@@ -66,5 +66,3 @@ if (slicedShows.length > 1) {
     displayShows.innerHTML = show; 
 
 }
-
-
